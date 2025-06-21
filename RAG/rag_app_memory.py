@@ -88,7 +88,7 @@ vector_store = FAISS(
 
 # --- Document Loading and Processing ---
 # 11. Define PDF Path and Load Document
-pdf_path = "C:\\Users\\Admin\\Documents\\gen_ai_training\\pdfs\\rag.pdf" # <<< MAKE SURE THIS PATH IS CORRECT FOR YOUR SYSTEM
+pdf_path = "C:\\Users\\Admin\\Documents\\gen_ai_training\\pdfs\\COI.pdf" # <<< MAKE SURE THIS PATH IS CORRECT FOR YOUR SYSTEM
 if not os.path.exists(pdf_path):
     raise FileNotFoundError(f"PDF file not found at: {pdf_path}")
 
@@ -188,7 +188,7 @@ def generate(state: MessagesState):
 
     # 26. Prepare Prompt for Final Answer Generation
     system_prompt = (
-        "You are an assistant for question-answering tasks. "
+        "You are an assistant for question-answering Indian Legal/Constitutional Queries. "
         "Use the following pieces of retrieved context ONLY if they are relevant to the user's latest question. "
         "If the context is provided but irrelevant, ignore it. "
         "If you don't know the answer based on the conversation history and relevant context, say that you don't know. "
