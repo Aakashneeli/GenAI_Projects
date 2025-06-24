@@ -19,19 +19,11 @@ I am currently exploring and learning about the following areas within Generativ
 * Large Language Models (LLMs)
 * Prompt Engineering
 * Fine-tuning models
-* Generative Adversarial Networks (GANs)
 * AI application development
 
 ## Projects
 
 You will find a variety of projects within this repository. Each project folder should contain its own `README.md` with more specific details about the project's scope, the technologies used, and what I learned.
-
-Here is a high-level overview of the projects you can find here:
-
-* **Project 1:** A brief one-line description of your first project.
-* **Project 2:** A brief one-line description of your second project.
-* **Project 3:** A brief one-line description of your third project.
-* *(Feel free to add more as your journey continues!)*
 
 ## Disclaimer
 
