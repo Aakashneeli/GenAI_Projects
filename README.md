@@ -18,6 +18,8 @@ I am currently exploring and learning about the following areas within Generativ
 
 * Large Language Models (LLMs)
 * Prompt Engineering
+* RAG Systems
+* AI Agents
 * Fine-tuning models
 * AI application development
 
