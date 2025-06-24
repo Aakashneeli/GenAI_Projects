@@ -10,7 +10,7 @@ This folder contains several distinct RAG implementations:
 
 A fully-functional Streamlit web application that acts as an AI legal assistant. It answers questions based on the content of the Constitution of India (`COI.pdf`).
 
-* [cite_start]**Core Functionality:** Users can ask questions in a chat interface, and the application uses a RAG pipeline to retrieve relevant sections from the PDF and generate a context-aware answer.
+***Core Functionality:** Users can ask questions in a chat interface, and the application uses a RAG pipeline to retrieve relevant sections from the PDF and generate a context-aware answer.
 * **Technology:** Built with Streamlit, LangChain, and LangGraph. [cite_start]It uses a FAISS vector store and OpenAI models (`gpt-4o-mini`, `text-embedding-3-large`).
 * **Key Feature:** Demonstrates a complete, deployable RAG application.
 
